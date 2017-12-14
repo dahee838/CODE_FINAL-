@@ -14,8 +14,7 @@ void controls()
   textAlign(CENTER);
   textSize(24);
   text("Press b to begin.", width/2, height/2);
-  imageMode(CENTER);
-  image(controls,width/2, height/4);
+  image(controls,500,400);
 }
 void youDied()
 {
