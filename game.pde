@@ -23,21 +23,17 @@ class Game {
       milk.add(new Milker());
       guy.add(new Guy());
     }
-    if (guy.size() > 5)
-    {
       for (int u = 5; u < guy.size(); u++) {
         guy.remove(u);
-      }
+      
     }
-    if (milk.size() > 5)
-    {
+
       for (int u = 5; u < milk.size(); u++) {
         milk.remove(u);
-      }
+      
     }
     image(lady, x, y, s, s);
-    //image(male, x_m, y, 200, 200);
-    //x_m = lerp(x, y, .000004);
+
 
     //check colliding-----------------------
     
